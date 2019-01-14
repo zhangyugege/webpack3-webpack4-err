@@ -18,7 +18,7 @@ Uncaught TypeError: Cannot read property 'bind' of undefined
 ```
 
 The reason is `window["webpackJsonp"]` is defined by webpack3 as a function.
-but it is expected to be an `array` or `undefined`.
+but it is expected to be an `array` or `undefined` in webpack4.
 
 ```javascript
 var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
