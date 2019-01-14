@@ -1,6 +1,5 @@
 # Webpack3 based proj loading webpack4 based proj err
 
-
 ## How to reproduce
 
 Run index.html in chrome 
@@ -40,3 +39,7 @@ webpack3.8.0
 
 webpack4.28.1
 
+
+## 问题已解决
+
+https://webpack.js.org/configuration/output/#output-jsonpfunction

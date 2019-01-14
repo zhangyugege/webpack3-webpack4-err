@@ -13,7 +13,10 @@ module.exports = {
     }
   },
   output: {
-    path: getPath('dist'),
-    filename: '[name].js'
+    path: getPath('/dist'),
+    filename: '[name].js',
+    publicPath: getPath('./dist/'),
+    chunkFilename: '[name].js',
+
   }
 }

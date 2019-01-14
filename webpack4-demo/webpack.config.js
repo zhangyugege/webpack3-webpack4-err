@@ -13,7 +13,8 @@ exports.default = {
     publicPath: getPath('./dist/'),
     filename: '[name].js',
     chunkFilename: '[name].js',
-    library: ''
+    library: '',
+    jsonpFunction: 'sodaJsonp'
   },
   resolve: {
     alias: {

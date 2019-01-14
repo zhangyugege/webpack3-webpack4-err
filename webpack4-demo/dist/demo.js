@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["demo"],{
+(window["sodaJsonp"] = window["sodaJsonp"] || []).push([["demo"],{
 
 /***/ "./src/demo.js":
 /*!*********************!*\
